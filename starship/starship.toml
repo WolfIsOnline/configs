@@ -1,0 +1,41 @@
+# Don't print a new line at the start of the prompt
+
+add_newline = false
+
+
+
+# Make prompt a single line instead of two lines
+
+[line_break]
+
+disabled = true
+
+
+
+# Replace the "\u276f" symbol in the prompt with "\u279c"
+
+# [character]                         # The name of the module we are configuring is "character"
+
+# success_symbol = "[\u279c](bold green)"  # The "success_symbol" is set to "\u279c" with color "bold green"
+
+
+
+# Use custom format
+
+# format = """
+
+# [\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500>](bold green)
+
+# [\u2502](bold green)$directory$rust$package
+
+# [\u2514\u2500>](bold green) """
+
+
+
+# Disable the package module, hiding it from the prompt completely
+
+[java]
+
+disabled = true
+
+
